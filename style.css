@@ -1,0 +1,45 @@
+body{
+    background: rgb(232, 239, 245);
+    justify-content: center;
+    align-items: center;
+}
+
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    margin-bottom: 10px ;
+    justify-content: center;
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+
+.cell{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border: 1.5px solid black;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+#options{
+    font-size: 2em;
+    text-align: center;
+}
+#players{
+    background-color: green;
+    font-size: 0.8em;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+button{
+    background-color: rgb(97, 25, 25);
+    cursor: pointer;
+    font-size: 0.8em;
+    margin-left: 10px;
+    color: aliceblue;
+}
